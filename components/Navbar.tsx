@@ -10,7 +10,7 @@ const Navbar = () => {
         <Image src="/logo.png" alt="logo" width={45} height={47} />
       </Link>
 
-      <ul className="hidden h-full gap-12 lg:flex">
+      <ul className="hidden h-11 w-2/4 gap-12 lg:flex bg-slate-50 rounded-full items-center pl-16">
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}

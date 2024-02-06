@@ -2,37 +2,32 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative bg-[url(/hero.png)] bg- bg-right bg-no-repeat">
-      <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+    <section className="relative bg-[url(/hero2.jpg)] bg-right bg-no-repeat mr-8 ml-8">
+      <div className="absolute inset-0 bg-white/75 md:bg-transparent sm:bg-transparent md:from-white/25 sm:from-white/25 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-        <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-          <h1 className="text-3xl font-extrabold sm:text-5xl">
-            Let us find your
-            <strong className="block font-extrabold text-rose-700">
-              {" "}
-              Forever Home.{" "}
-            </strong>
+        <div className="text-left ltr:sm:text-left rtl:sm:left">
+        <span className="text-sm text-yellow-500 font-semibold leading-6 mb-20">TECH SERVICES</span>
+          <h1 className="text-3xl mt-2 sm:text-5xl">
+            TechSynergy:
+          </h1>
+          <h1 className="text-3xl mt-2 sm:text-5xl">
+            Innovate,
+          </h1>
+          <h1 className="text-3xl mt-2 sm:text-5xl">
+            Create, Elevate
           </h1>
 
-          <p className="mt-4 max-w-lg sm:text-xl/relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+          <p className="mt-10 text-2xl max-w-lg sm:text-xl/relaxed">
+          Unlocking Possibilities, One Code at a Time
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-4 text-center">
+          <div className="mt-10 flex flex-wrap gap-4 text-center">
             <a
               href="#"
-              className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+              className="block rounded-full bg-green-400 px-12 py-3 text-sm font-medium text-white shadow focus:outline-none sm:w-auto"
             >
-              Get Started
-            </a>
-
-            <a
-              href="#"
-              className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
-            >
-              Learn More
+              See Projects
             </a>
           </div>
         </div>
