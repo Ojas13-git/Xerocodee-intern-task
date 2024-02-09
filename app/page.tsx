@@ -6,6 +6,7 @@ import Slider from "@/components/Slider";
 import Teams from "@/components/Teams";
 import ChooseUs from "@/components/ChooseUs";
 import Crew from "@/components/Crew";
+import Call from "@/components/Call";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     <Slider/>
     <ChooseUs/>
     <Crew/>
+    <Call/>
     </>
   );
 }
