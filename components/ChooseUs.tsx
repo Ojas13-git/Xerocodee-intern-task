@@ -2,7 +2,7 @@ import React from "react";
 
 const Brands = () => {
   return (
-    <section className="bg-white dark:bg-gray-200 rounded-3xl m-10">
+    <section className="bg-white dark:bg-gray-200 rounded-3xl md:m-10 xs:-mt-[700px]">
       <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
         <h2 className="mb-8 lg:mb-16 text-3xl tracking-tight leading-tight text-center text-gray-900 dark:text-black md:text-4xl">
           Choose Us: Your Path to Innovation and
