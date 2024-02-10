@@ -87,6 +87,7 @@ const Slider = () => {
         </button> */}
       </div>
     </div>
+    
   );
 };
 

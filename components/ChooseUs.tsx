@@ -24,7 +24,7 @@ const Brands = () => {
             </div>
           </div>
           <div className="relative flex md:w-[300px] md:h-[200px] flex-col bg-clip-border rounded-3xl bg-transparent text-gray-700 shadow-md relative grid items-end overflow-hidden">
-            <div className="absolute inset-0 bg-green-400"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-lime-300 to-green-400"></div>
             <div className="p-6 relative flex flex-col justify-end">
               <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-black">
                 Proven Track Record of Success:
@@ -47,7 +47,7 @@ const Brands = () => {
             </div>
           </div>
           <div className="relative flex md:w-[300px] md:h-[200px] flex-col bg-clip-border rounded-3xl bg-transparent text-gray-700 shadow-md relative grid items-end overflow-hidden">
-            <div className="absolute inset-0 bg-blue-400"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-sky-400 to-blue-500"></div>
             <div className="p-6 relative flex flex-col justify-end">
               <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-black">
                 Tailored Solutions for Your Unique Needs:
