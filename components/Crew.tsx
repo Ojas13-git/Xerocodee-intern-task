@@ -44,7 +44,7 @@ const Crew = () => {
       <div className="mt-8 flex justify-center">
         <div className="flex items-center gap-x-3">
           <button className="rounded-full bg-blue-500 hover:bg-blue-700 text-white py-2 px-4">
-            Our full repertorie
+            Schedule a call
           </button>
         </div>
       </div>
