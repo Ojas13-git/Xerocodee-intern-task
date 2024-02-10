@@ -256,13 +256,13 @@ const Footer = () => {
         <Link href="/">
           <Image src="/logo.png" alt="logo" width={45} height={47} />
         </Link>
-        <div className="flex justify-center gap-10 -mt-8">
+        <div className="flex justify-center md:gap-10 xs:gap-2 -mt-8 -ml-8">
           <p className="text-sm text-center text-gray-900">Terms</p>
           <p className="text-sm text-center text-gray-900">Privacy</p>
           <p className="text-sm text-center text-gray-9 00">Cookies</p>
         </div>
-        <div className="space-y-3 flex justify-end -mt-8 sm:pl-5">
-          <div className="flex justify-start space-x-3">
+        <div className="space-y-3 flex justify-end -mt-8 pt-2">
+          <div className="flex justify-start space-x-3 ">
             <a
               rel="noopener noreferrer"
               href="#"

@@ -3,7 +3,7 @@ import React from "react";
 const Teams = () => {
   return (
     <>
-      <h1 className="p-2 font-medium text-2xl md:text-center xs:text-left sm:p-8">
+      <h1 className="p-2 font-medium text-2xl md:text-center xs:text-left sm:p-8 mt-10 ">
         We have multidisciplinary teams to meet any{" "}
         <span className="text-[#aa00ff]">challenge.</span>
       </h1>
